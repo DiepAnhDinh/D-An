@@ -4,10 +4,9 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%=title%></title>
-    @vite('resources/js/app.js')
+    <title>Neotech-Administrator</title>
+   @vite('resources/js/app.js')
 </head>
-
 <body>
     <div id="wrapper">
         <nav class="navbar navbar-default top-navbar" role="navigation">
@@ -18,7 +17,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/admin">HTQL</a>
+                <a class="navbar-brand" href="/home">Neotech</a>
             </div>
 
             <ul class="nav navbar-top-links navbar-right">
@@ -235,7 +234,7 @@
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
                     <li>
-                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
+                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard"></i>Home</a>
                     </li>
                     <li>
                         <a href="/customer"><i class="fa fa-desktop"></i>Khách hàng</a>
