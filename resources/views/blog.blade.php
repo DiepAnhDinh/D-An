@@ -1,3 +1,5 @@
+@extends('layout')
+@section('content')
 <div class="row">
         <div class="col-md-12">
             <h1 class="page-header">
@@ -48,3 +50,4 @@
             <!--End Advanced Tables -->
         </div>
     </div>
+    @endsection
