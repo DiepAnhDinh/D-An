@@ -19,7 +19,3 @@ Route::get('/', function () {
 Route::get('/home',function(){
     return view('Home');
 });
-
-Route::get('/blog',function(){
-    return view('blog');
-});
